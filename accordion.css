@@ -1,32 +1,37 @@
-.accordion {
-    button {
-        height: 60px;
-        width: 100%;
-        text-align: left;
-        border: none;
-        border-bottom: 1px solid #ccc;
-        font-weight: 600;
-        font-size: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+.accordion{
+	.summary{
+		height: 60px;
+		width: 100%;
+		text-align: left;
+		border: none;
+		border-bottom: 1px solid #ccc;
+		font-weight: 600;
+		font-size: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		
+		&:after{
+			content:"-";
+		}
+		&[aria-expanded=true]{
+			background: lightGray;
 
-        &:after {
-            content: "-";
-        }
-        &.active {
-            background: lightGray;
-            &:after {
-                content: "^";
-            }
-        }
-    }
-    .panel {
-        height: 0;
-        overflow: hidden;
-        transition: all 0.2s ease-in-out;
-    }
-    .content {
-        padding: 20px;
-    }
+			&:after{
+				content:"^";
+			}
+			& + .panel{
+				visibility: visible;	
+			}
+		}
+	}
+	.panel{
+		height: 0;
+		overflow: hidden;
+		transition: all .2s ease-in-out;
+		visibility: hidden;
+	}
+	.content{
+		padding: 20px;
+	}
 }

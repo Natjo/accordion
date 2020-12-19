@@ -12,4 +12,4 @@ accordion(document.querySelector('.accordion'));
 
 ## Demo
 
-[See codepen demo](https://codepen.io/natjo/pen/JedeVm?editors=0011)
+[See codepen demo](https://codepen.io/natjo/pen/JedeVm?editors=1011)
