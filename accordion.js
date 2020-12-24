@@ -1,8 +1,8 @@
 /**
  * @module Accordion
  *
- * @param el (el) element
- * @param multi (boolean) if true, enable multi panels to be opened
+ * @param {HTMLElement} el element
+ * @param {Boolean} multi if true, enable multi panels to be opened
  */
 
 const accordion = (el, mutli = false) => {
