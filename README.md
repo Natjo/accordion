@@ -3,7 +3,7 @@
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/accordion)
 
 
-## Usage
+## Html
 ```html
 <ul class="accordion">
 	<li>
@@ -40,6 +40,7 @@
 	</li>
 </ul>
 ```
+## Javascript
 ```javascript
 import accordion from '../../modules/accordion/accordion.js';
 
