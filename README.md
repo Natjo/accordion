@@ -5,6 +5,7 @@
 
 ## Html
 ```html
+Set id of the panel in `aria-controls`.
 <ul class="accordion">
 	<li>
 		<button class="summary" aria-expanded="false" aria-controls="desc-1">Lorem ipsum</button>
