@@ -2,7 +2,6 @@
 
 ![version](https://img.shields.io/github/manifest-json/v/Natjo/accordion)
 
-
 ## Html
 ```html
 Set id of the panel in `aria-controls`.
